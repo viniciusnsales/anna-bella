@@ -1,6 +1,12 @@
 body {
-    background: url('image/fundo.png');
-    font-family: sans-serif;
+    /*caso a imagem não suba, colocamoas uma de fundo*/
+    /*use fontpara editar tudod e uma vez*/
+    background: #d2d2c1 url('image/fundo.png');
+    font: 16px Arial, Helvetica, sans-serif;
+}
+
+#principal {
+    width: 900px;
 }
 
 #topo {
@@ -9,25 +15,20 @@ body {
 }
 
 #menu {
-    width: 900px;
-    background-color: #d2d2c0;
-    height: 70px;
-    line-height: 70px
+    background-color: #c5c5b2;
+    padding: 18px;
 }
 
-#menu a {
+a {
+    color: #4b566a;
     text-decoration: none;
-    color: #494baa;
     font-weight: bold;
-    padding: 10px;
+    padding: 5px;
 }
 
 #desc {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background-color: #FDFBED;
-    width: 900px;
-    padding-left: 5px;
+    background-color: #e8e8d9;
+    padding: 10px;
 }
 
 .titulo {
@@ -36,9 +37,5 @@ body {
 }
 
 #rodape {
-    height: 50px;
-    width: 900px;
-    font-weight: bold;
     text-align: center;
-    line-height: 50px;
 }
